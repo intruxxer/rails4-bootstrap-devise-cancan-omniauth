@@ -9,6 +9,16 @@ gem "therubyracer", platforms: :ruby
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder", "~> 1.2"
+gem "bootstrap-sass", "~> 3.0.2.0"
+gem "font-awesome-sass-rails"
+gem "simple_form"
+gem "devise", "~> 3.0.0"
+gem "cancan"
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+gem "hashugar", github: "alex-klepa/hashugar"
+
 group :development do
   gem "guard-rspec"
   gem "pry"
@@ -29,13 +39,3 @@ group :test do
   gem "database_cleaner"
   gem "rb-inotify", "~> 0.9"
 end
-
-gem "bootstrap-sass", "~> 2.3.2.1"
-gem "font-awesome-sass-rails"
-gem "simple_form", github: "plataformatec/simple_form"
-gem "devise", "~> 3.0.0"
-gem "cancan"
-gem "omniauth"
-gem "omniauth-facebook"
-gem "omniauth-twitter"
-gem "hashugar", github: "alex-klepa/hashugar"
