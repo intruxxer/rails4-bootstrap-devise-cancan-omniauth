@@ -12,8 +12,8 @@ BootstrapApp::Application.routes.draw do
   }
 
   resources :users
-  root :to => "home#index"
-  get "home/index"
+  root :to => "welcome#index"
+  get "welcome/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
