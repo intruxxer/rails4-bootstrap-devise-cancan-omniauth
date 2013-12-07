@@ -44,17 +44,15 @@ gem "omniauth-twitter"
 gem "hashugar", github: "alex-klepa/hashugar"
 
 #assets
-gem_group :assets do
-  gem "bootstrap-sass", "~> 3.0.2.0"
-  gem "font-awesome-sass-rails"
-  gem 'sass-rails', '~> 4.0.0'
-  gem 'uglifier', '>= 1.3.0'
-  gem 'coffee-rails', '~> 4.0.0'
-  gem 'therubyracer', platforms: :ruby
-  gem 'jquery-rails'
-  gem 'turbolinks'
-  gem 'jbuilder', '~> 1.2'
-end
+gem "bootstrap-sass", "~> 3.0.2.0"
+gem "font-awesome-sass-rails"
+gem 'sass-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'therubyracer', platforms: :ruby
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 1.2'
 
 #development phase
 gem_group :development do
